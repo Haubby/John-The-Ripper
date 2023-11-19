@@ -84,13 +84,13 @@ john-the-ripper zip.hash
 
 * Let's see how this tool helps you get over the line.
 
-Step 1. Download and install John the Ripper from this link. It will be in the ZIP format. Extract it to your desired location and install it so that you can use it in CMD.
+Step 1. Download and install John the Ripper from this _[link](https://web.archive.org/web/20190315141023/https:/www.openwall.com/john/)_ It will be in the ZIP format. Extract it to your desired location and install it so that you can use it in cmd
 
-Step 2. Change the folder name to 'John' you have downloaded & Place it on the Desktop.
+Step 2. Change the folder name to 'John' you have downloaded & Place it on the Desktop
 
 Step 3. Create a new folder 'Crack' inside run folder of John which you just placed on Desktop
 
-Step 4. Copy and paste the encrypted ZIP file you want to access into the Crack folder.
+Step 4. Copy and paste the encrypted ZIP file you want to access into the Crack folder
 
 Step 5. Search for cmd and open the Command Prompt
 
@@ -99,28 +99,26 @@ Step 6. Enter the following command in cmd
 cd /Desktop/john/run
 ```
 
-Step 7. Now, execute the following command in cmd.
+Step 7. Now, execute the following command in cmd
 ```
-Zip2john.exe/crack/ZipFileName.zip>crack/keys.txt
+zip2john.exe crack/ZipFileName.zip>crack/key.txt
 ```
-* This command creates hashes which helps you crack the lost password when they are matched with it. You'll find password hashes in the 'keys.txt' file.
+* This command creates hashes which helps you crack the lost password when they are matched with it. You'll find password hashes in the 'key.txt' file
 
 Step 8. Next, execute the following command 
 ```
-john -format=zip crack/keys.txt
+john --format=zip crack/key.txt
 ```
-* Within few minutes, you may see your password appear on the screen. Otherwise, you may have to wait for few hours, depending on how complicated or difficult your password is
+* Within few minutes, you may see your password appear on the screen. Otherwise, you may have to wait for few hours, depending on how complicated/difficult your password is
 
 
 ## References ~
 
-> _[Official Documentation](https://www.openwall.com/john/doc/)_
-
-> Follow the link to install _[John The Ripper](https://web.archive.org/web/20190315141023/https:/www.openwall.com/john/)_ in any operating system
+> _[Official Documentation](https://www.openwall.com/john/)_
 
 > _[Openwall Examples](https://www.openwall.com/john/doc/EXAMPLES.shtml)_
 
-> _[Ubuntu Man Page](https://manpages.ubuntu.com/manpages/focal/en/man8/john.8.html)_
+> _[Ubuntu Man Pages](https://manpages.ubuntu.com/manpages/focal/en/man8/john.8.html)_
 
 > For any issues, _[Refer Here](https://superuser.com/questions/1457837/command-zip2john-is-not-working)_ and _[here](https://www.freecodecamp.org/news/crack-passwords-using-john-the-ripper-pentesting-tutorial/)_
 
