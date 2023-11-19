@@ -9,7 +9,7 @@
 sudo snap install john-the-ripper -y
 ```
 
-_NOTE: john is included in snap version of john-the-ripper, & tested in Ubuntu 20.04_
+_NOTE: john is included in snap version of john-the-ripper & tested in Ubuntu 20.04_
 
 * Alternatively, we can install it via _[github](https://github.com/openwall/john.git)_ and then follow the instructions explained in _[Openwall](https://www.openwall.com/john/doc/INSTALL.shtml)_
 
@@ -30,13 +30,13 @@ _NOTE: john is included in snap version of john-the-ripper, & tested in Ubuntu 2
 unshadow /etc/passwd /etc/shadow > output.db
 ```
 
-This command will combine the files together and create an output.db file. We can now crack the output.db file using John
+* This command will combine the files together and create an output.db file. We can now crack the output.db file using John
 ```
 john output.db
 ```
 
 * John tries to find the password for all the users in the passwd file and generates the output with the list of cracked passwords
-* Again, you can use custom wordlists via the --wordlist flag
+* Again, you can use custom wordlists via the '--wordlist' flag
 
 > ### How to Crack a Windows Password ?
 
@@ -50,13 +50,15 @@ john --format=lm crack.txt
 ```
 
 * The crack.txt will contain the password hash
-* If John is unable to crack the password using its default wordlist, you can use the RockYou wordlist using the --wordlist flag
+
+* If John is unable to crack the password using its default wordlist, you can use the RockYou wordlist using the '--wordlist' flag
 
 > ### How to Crack a Zip File Password in Linux ?
 
 * Let's try to crack a zip file password. To do that, we need to get the hash of the zip file's password
 
 * Like unshadow, John has another utility called 'zip2john' 
+
 * zip2john helps us to get the hash from zip file. If you are cracking a .rar file, you can use the rar2john utility
 
 * Here's the syntax to get the password hash of a zip file
