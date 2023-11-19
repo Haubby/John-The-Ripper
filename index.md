@@ -82,4 +82,6 @@ john-the-ripper zip.hash
 
 > Follow the link to install _[John The Ripper](https://web.archive.org/web/20190315141023/https:/www.openwall.com/john/)_ in any operating system
 
+> For any issues, _[Refer Here](https://superuser.com/questions/1457837/command-zip2john-is-not-working)_
+
 ![keanu_Reeves](imgs/johnwick.jpg)
