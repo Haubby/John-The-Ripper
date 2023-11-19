@@ -84,28 +84,28 @@ john-the-ripper zip.hash
 
 * Let's see how this tool helps you get over the line.
 
-Step 1. Download and install John the Ripper from this _[link](https://web.archive.org/web/20190315141023/https:/www.openwall.com/john/)_ It will be in the ZIP format. Extract it to your desired location and install it so that you can use it in cmd
+1. Download and install John the Ripper from this _[link](https://web.archive.org/web/20190315141023/https:/www.openwall.com/john/)_ It'll be in the ZIP format. Extract it to your desired location and install it so that you can use it in cmd
 
-Step 2. Change the folder name to 'John' you have downloaded & Place it on the Desktop
+2. Change the folder name to 'John' you have downloaded & Place it on the Desktop
 
-Step 3. Create a new folder 'Crack' inside run folder of John which you just placed on Desktop
+3. Create a new folder 'Crack' inside run folder of John which you just placed on Desktop
 
-Step 4. Copy and paste the encrypted ZIP file you want to access into the Crack folder
+4. Copy and paste the encrypted ZIP file you want to access into the Crack folder
 
-Step 5. Search for cmd and open the Command Prompt
+5. Search for cmd and open the Command Prompt
 
-Step 6. Enter the following command in cmd
+6. Enter the following command in cmd
 ```
 cd /Desktop/john/run
 ```
 
-Step 7. Now, execute the following command in cmd
+7. Now, execute the following command in cmd
 ```
 zip2john.exe crack/ZipFileName.zip>crack/key.txt
 ```
 * This command creates hashes which helps you crack the lost password when they are matched with it. You'll find password hashes in the 'key.txt' file
 
-Step 8. Next, execute the following command 
+8. Next, execute the following command 
 ```
 john --format=zip crack/key.txt
 ```
