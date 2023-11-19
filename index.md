@@ -52,7 +52,7 @@ john --format=lm crack.txt
 * The crack.txt will contain the password hash
 * If John is unable to crack the password using its default wordlist, you can use the RockYou wordlist using the --wordlist flag
 
-> ### How to Crack a Zip File Password in Linux?
+> ### How to Crack a Zip File Password in Linux ?
 
 * Let's try to crack a zip file password. To do that, we need to get the hash of the zip file's password
 
@@ -76,26 +76,40 @@ john-the-ripper zip.hash
 
 * John also has several other functionalities that will help you crack a variety of passwords
 
-### How to Open Encrypted Zip Files Without Password in windows ?
-* Using the command prompt is a method you can try to make your password-protected ZIP files accessible without entering any passcode. 
+> ### How to Open Encrypted Zip Files Without Password in windows ?
+
+* By Using command prompt, you can access all the files available in password-protected ZIP file without entering any passcode 
+
 * When trying this method, you have to use a pre-coded tool, John the Ripper.
+
 * Let's see how this tool helps you get over the line.
 
 Step 1. Download and install John the Ripper from this link. It will be in the ZIP format. Extract it to your desired location and install it so that you can use it in CMD.
 
-Step 2. You can change the folder name you have downloaded. Place the folder on the Desktop.
+Step 2. Change the folder name to 'John' you have downloaded & Place it on the Desktop.
 
-Step 3. Now, open the folder you just placed on the Desktop and double-click on the “Run” folder. Inside the Run folder, create another folder and name it “Crack”.
+Step 3. Create a new folder 'Crack' inside run folder of John which you just placed on Desktop
 
-Step 4. It is time to copy and paste the encrypted ZIP file you want to access into the Crack folder.
+Step 4. Copy and paste the encrypted ZIP file you want to access into the Crack folder.
 
-Step 5. Go to the search bar of your Windows or any other operating system, type cmd, and open the Command Prompt
+Step 5. Search for cmd and open the Command Prompt
 
-Step 6. Type the “cd/Desktop/john/run” command on the cmd interface and press the “Enter” key from your computer. This command calls Windows to find the Run folder.
+Step 6. Enter the following command in cmd
+```
+cd /Desktop/john/run
+```
 
-Step 7. Now, write the “Zip2john.exe/crack/ZipFileName.zip>crack/keys.txt” command on the interface and execute it. It will create hashes. These hashes help you crack the lost password when they are matched with it. You will find password hashes in the “keys.txt” file.
+Step 7. Now, execute the following command in cmd.
+```
+Zip2john.exe/crack/ZipFileName.zip>crack/keys.txt
+```
+* This command creates hashes which helps you crack the lost password when they are matched with it. You'll find password hashes in the 'keys.txt' file.
 
-Step 8. Execute the “john -format=zip crack/keys.txt” command. Within a few minutes, you may see your password appear on the screen. Otherwise, you may have to wait for multiple hours, depending on how complicated or difficult your password is. Below, you can see that the cracked password is “ABC123”.
+Step 8. Next, execute the following command 
+```
+john -format=zip crack/keys.txt
+```
+* Within few minutes, you may see your password appear on the screen. Otherwise, you may have to wait for few hours, depending on how complicated or difficult your password is
 
 
 ## References ~
