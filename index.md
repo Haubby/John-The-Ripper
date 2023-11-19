@@ -105,7 +105,7 @@ cd Desktop/john/run
 ```
 zip2john.exe crack/ZipFileName.zip>crack/key.txt
 ```
-* This command creates hashes which helps you crack the lost password and when they are matched, You'll find password hashes in the 'key.txt' file
+* This command creates hashes which helps you crack the lost password and when they are matched, You'll find password hashes in 'key.txt' file
 
 9. Next, execute the following command 
 ```
