@@ -76,11 +76,10 @@ john-the-ripper zip.hash
 
 * John also has several other functionalities that will help you crack a variety of passwords.
 
-## References
+## References ~
 
 > _[Official Documentation](https://www.openwall.com/john/doc/)_
 
 > Follow the link to install _[John The Ripper](https://web.archive.org/web/20190315141023/https:/www.openwall.com/john/)_ in any operating system
 
-
-![](imgs/johnwick.jpg)
+![keanu_Reeves](imgs/johnwick.jpg)
