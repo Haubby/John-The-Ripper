@@ -15,7 +15,7 @@ _NOTE: john is included in snap version of john-the-ripper, & tested in Ubuntu 2
 
 > ### How to Crack a Linux Password ?
 
-* Now, let's crack a Linux password. In Linux, there are two important files saved in the /etc directory: passwd and shadow
+* In Linux, there are two important files saved in the /etc directory: passwd and shadow
 
 /etc/passwd -> stores information like username, user id, login shell, etc.
 /etc/shadow -> contains password hash, password expiry, etc.
