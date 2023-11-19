@@ -17,8 +17,8 @@ _NOTE: john is included in snap version of john-the-ripper, & tested in Ubuntu 2
 
 * In Linux, there are two important files saved in the /etc directory: passwd and shadow
 ```bash
-/etc/passwd -> stores information like username, user id, login shell, etc.
-/etc/shadow -> contains password hash, password expiry, etc.
+/etc/passwd --> stores information like username, user id, login shell, etc.
+/etc/shadow --> contains password hash, password expiry, etc.
 ```
 
 * In addition to the 'john' command, John comes with a few other utilities. One of them is called 'unshadow'
