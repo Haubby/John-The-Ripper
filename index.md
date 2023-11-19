@@ -80,30 +80,30 @@ john-the-ripper zip.hash
 
 * By Using command prompt, you can access all the files available in password-protected ZIP file without entering any passcode 
 
-* When trying this method, you have to use a pre-coded tool, John the Ripper.
+* When trying this method, you have to use a pre-coded tool, John the Ripper
 
-* Let's see how this tool helps you get over the line.
+* Let's see how this tool helps you get over the line
 
 1. Download and install John the Ripper from this _[link](https://web.archive.org/web/20190315141023/https:/www.openwall.com/john/)_ It'll be in the ZIP format. Extract it to your desired location and install it so that you can use it in cmd
 
-2. Change the folder name to 'John' you have downloaded & Place it on the Desktop
+2. Change the folder name to 'john' you have downloaded & Place it on the Desktop
 
-3. Create a new folder 'Crack' inside run folder of John which you just placed on Desktop
+3. Create a new folder 'crack' inside run folder of john which you just placed on Desktop
 
-4. Copy and paste the encrypted ZIP file you want to access into the Crack folder
+4. Copy and paste the encrypted ZIP file you want to access into the crack folder
 
 5. Search for cmd and open the Command Prompt
 
 6. Enter the following command in cmd
 ```
-cd /Desktop/john/run
+cd Desktop/john/run
 ```
 
-7. Now, execute the following command in cmd
+7. Now, execute the following command
 ```
 zip2john.exe crack/ZipFileName.zip>crack/key.txt
 ```
-* This command creates hashes which helps you crack the lost password when they are matched with it. You'll find password hashes in the 'key.txt' file
+* This command creates hashes which helps you crack the lost password and when they are matched, You'll find password hashes in the 'key.txt' file
 
 8. Next, execute the following command 
 ```
