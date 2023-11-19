@@ -2,7 +2,7 @@
 ## Applying John in our daily life
 ----------------------------------
 
-### Installing John...
+> ### Installing John...
 
 * First of all, we need to install 'john-the-ripper' using snap
 ```
@@ -13,7 +13,7 @@ _NOTE: john is included in snap version of john-the-ripper, & tested in Ubuntu 2
 
 * Alternatively, we can install it via _[github](https://github.com/openwall/john.git)_ and then follow the instructions explained in _[Openwall](https://www.openwall.com/john/doc/INSTALL.shtml)_
 
-### How to Crack a Linux Password ?
+> ### How to Crack a Linux Password ?
 
 * Now, let's crack a Linux password. In Linux, there are two important files saved in the /etc directory: passwd and shadow
 
@@ -37,7 +37,7 @@ john output.db
 * John tries to find the password for all the users in the passwd file and generates the output with the list of cracked passwords
 * Again, you can use custom wordlists via the --wordlist flag
 
-### How to Crack a Windows Password ?
+> ### How to Crack a Windows Password ?
 
 * In Windows, the password hashes are stored in the SAM database. SAM uses the LM/NTLM hash format for passwords, so we will be using John to crack one
 
@@ -51,9 +51,7 @@ john --format=lm crack.txt
 * The crack.txt will contain the password hash
 * If John is unable to crack the password using its default wordlist, you can use the RockYou wordlist using the --wordlist flag
 
-
-
-### How to Crack a Zip File Password ?
+> ### How to Crack a Zip File Password ?
 
 * Let's try to crack a zip file password. To do that, we need to get the hash of the zip file's password
 
