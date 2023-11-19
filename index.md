@@ -11,7 +11,7 @@ sudo snap install john-the-ripper -y
 
 _NOTE: john is included in snap version of john-the-ripper, & tested in Ubuntu 20.04_
 
-* Alternatively, we can install it via _[:github:](https://github.com/openwall/john.git)_ and then follow the instructions explained in _[Openwall](https://www.openwall.com/john/doc/INSTALL.shtml)_
+* Alternatively, we can install it via ![[github](https://github.com/openwall/john.git)](imgs/github.png) and then follow the instructions explained in _[Openwall](https://www.openwall.com/john/doc/INSTALL.shtml)_
 
 > ### How to Crack a Linux Password ?
 
