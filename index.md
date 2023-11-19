@@ -122,6 +122,6 @@ john --format=zip crack/key.txt
 
 > _[Ubuntu Man Pages](https://manpages.ubuntu.com/manpages/focal/en/man8/john.8.html)_
 
-> For any issues, _[Refer Here](https://superuser.com/questions/1457837/command-zip2john-is-not-working)_ and _[here](https://www.freecodecamp.org/news/crack-passwords-using-john-the-ripper-pentesting-tutorial/)_
+> For any issues, _[Refer Here](https://superuser.com/questions/1457837/command-zip2john-is-not-working)_ or _[here](https://www.freecodecamp.org/news/crack-passwords-using-john-the-ripper-pentesting-tutorial/)_
 
 ![keanu_Reeves](imgs/johnwick.jpg)
